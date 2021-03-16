@@ -258,7 +258,7 @@ pub const PTHREAD_MUTEX_RECURSIVE: ::c_int = 1;
 pub const PTHREAD_MUTEX_ERRORCHECK: ::c_int = 2;
 pub const FD_SETSIZE: usize = 1024;
 // intentionally not public, only used for fd_set
-const ULONG_SIZE: usize = 32;
+pub const ULONG_SIZE: usize = 32;
 
 // Other constants
 pub const EPERM: ::c_int = 1;

@@ -935,7 +935,7 @@ pub const TCP_KEEPIDLE: ::c_int = 0x03;
 pub const TCP_KEEPINTVL: ::c_int = 0x04;
 pub const TCP_KEEPCNT: ::c_int = 0x05;
 
-const ULONG_SIZE: usize = 64;
+pub const ULONG_SIZE: usize = 64;
 
 pub const WNOHANG: ::c_int = 0x00000001;
 
